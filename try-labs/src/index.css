@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 :root {
-  --font-base: 'Cormorant Upright', serif;
+  --font-base: 'Montserrat', sans-serif;
   --font-alt: 'Open Sans', sans-serif;
   
-  --color-golden: #DCCA87;
+  --color-golden: #CB3066;
   --color-black: #0C0C0C;
   --color-gray: #545454;
-  --color-crimson: #F5EFDB;
+  --color-crimson: #FFFF;
   --color-grey: #AAAAAA;
-  --color-white: #FFFFFF;
+  --color-white: white;
 }
 
 * {

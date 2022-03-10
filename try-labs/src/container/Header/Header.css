@@ -15,3 +15,26 @@
     width: 2%;
 
 }
+
+@media screen and (max-width:900px){
+    .app__header-h1 {
+        font-family: var(--font-base);
+        color:var(--color-golden);
+        letter-spacing: 0.04rem;
+        text-transform: uppercase;
+        line-height: 60px;
+        font-size: 40px;
+    }
+
+}
+@media screen and (max-width:650px){
+    .app__header-h1 {
+        font-family: var(--font-base);
+        color:var(--color-golden);
+        letter-spacing: 0.04rem;
+        text-transform: uppercase;
+        line-height: 60px;
+        font-size: 35px;
+    }
+
+}

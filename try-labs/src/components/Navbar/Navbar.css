@@ -22,7 +22,7 @@
 
 .app__navbar-links {
     flex: 1;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     margin-left: 55px;
@@ -62,7 +62,7 @@
 }
 
 .app__navbar-smallscreen {
-    display: none;
+    display:flex
 }
 
 .app__navbar-smallscreen-overlay {
