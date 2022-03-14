@@ -1,7 +1,6 @@
 import React from 'react';
 import { SubHeading } from '../../components';
-
-import { images } from '../../constants';
+import image from '../../assets/ReactStock.jpeg';
 import './Header.css';
 
 const Header = () => (
@@ -13,7 +12,7 @@ const Header = () => (
       <a href='#about' className='custom__button'>Conocenos</a>
     </div>
     <div className='app__wrapper_img'>
-      <img src={images.welcome} alt="'header img" />
+      <img src={image} alt="'header img" className='ImagenPrincipal'/>
     </div>
   </div>
 );

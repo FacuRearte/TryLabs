@@ -16,6 +16,10 @@
 
 }
 
+.ImagenPrincipal {
+    border-radius: 8rem;
+}
+
 @media screen and (max-width:900px){
     .app__header-h1 {
         font-family: var(--font-base);

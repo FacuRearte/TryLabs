@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
-import images from '../../constants/images'
+import image from '../../assets/TryLabs_Logo.png'
 
 import './Navbar.css';
 
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
-        <img src={images.gericht} alt="app logo" />
+        <img src={image} alt="app logo" />
       </div>
       <ul className='app__navbar-links'>
         <li className='p__opensans'><a href='#home'>Home</a></li>
@@ -22,7 +22,7 @@ const Navbar = () => {
         <li className='p__opensans'><a href='#contact'>Contact</a></li>
       </ul>
       <div className='app__navbar-smallscreen'>
-        <GiHamburgerMenu color="#fff" style={{cursor:'pointer'}} fontSize={27} onClick={(() => setToggleMenu(true))} />
+        <GiHamburgerMenu color="#fff" style={{ cursor: 'pointer' }} fontSize={27} onClick={(() => setToggleMenu(true))} />
         {
           toggleMenu && (
             <div className='app__navbar-smallscreen-overlay flex__center slide-bottom'>
