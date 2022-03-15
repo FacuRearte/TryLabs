@@ -16,9 +16,9 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">¿Quiénes somos?</h1>
         <p className="p__opensans">
-          Somos una desarrolladora de software, capaces de crear la página que
-          necesita tu empresa en poco tiempo y con las mejores tecnologías del
-          mercado. Adaptándonos a sus necesidades y preferencias, para ofercer
+          Somos una desarrolladora de software, capaces de crear la página que usted
+          necesita en poco tiempo y con las mejores tecnologías del
+          mercado. Adaptándonos a sus necesidades y preferencias, para ofrecer
           el mejor servicio posible.
         </p>
       </div>
